@@ -11,4 +11,6 @@ public interface EmployeeService {
      Employee persistValidatedEmployee(Employee employee);
 
      List<Employee> getEmployeesList();
+
+     List<String> employeeList(List<String> list);
 }

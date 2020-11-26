@@ -19,8 +19,18 @@ public class Employee implements Serializable {
 
     private String department;
 
+    private String email;
+
     @Temporal(TemporalType.DATE)
     private Date dob;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public Date getDob() {
         return dob;
