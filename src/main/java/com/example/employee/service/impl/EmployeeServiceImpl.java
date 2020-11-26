@@ -20,6 +20,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Override
     public void validateEmployee(Employee employee) {
       Employee employe1  = employeeRepo.save(employee);
+
     }
 
     public List<String> employeeList(List<String> list){
